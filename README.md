@@ -14,6 +14,11 @@ The system is designed to work with two main types of STM data located in the `s
 ### [RAG_code.ipynb](RAG_code.ipynb)
 Main implementation notebook containing the RAG agent setup, vector database creation, and core functionality for processing and querying STM analysis code. This notebook demonstrates how to build and deploy the RAG system for SPM data analysis workflows.
 
-### [test_rag_output.ipynb](test_rag_output.ipynb)
-Testing and validation notebook that demonstrates the RAG agent's capabilities through example queries and analysis scenarios. Shows practical applications of the system for both 2D and 3D STM data interpretation and code generation.
+
+### [main_rag_test.py](main_rag_test.py)
+Python script for testing the RAG agent functionality. Provides a command-line interface to interact with the RAG system and validate its performance on STM data analysis queries. Use "python main_rag_test.py" to execure the file on terminal.
+
+
+### [examples_test_rag_output.ipynb](examples_test_rag_output.ipynb)
+Examples of Testing and validation notebook that demonstrates the RAG agent's capabilities through example queries and analysis scenarios. The prediction of gpt-5 model performs better than earlier legacy models. Notebook shows practical applications of the system for both 2D and 3D STM data interpretation and code generation.
 

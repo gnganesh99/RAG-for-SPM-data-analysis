@@ -1,12 +1,10 @@
 # Classes and functionst to analyze nanonis stm data - .sxm file
 
 import numpy as np
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from scipy.signal import savgol_filter
 import sklearn
 from sklearn.linear_model import LinearRegression
-
-# Documentation: https://github.com/hoffmanlabcoding/stmpy/blob/main/stmpy/doc/Stmpy%20101%20-%20getting%20started.ipynb
 import stmpy
 
 class Sxm_Image():

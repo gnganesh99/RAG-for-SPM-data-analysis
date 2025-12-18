@@ -33,14 +33,15 @@ Notebook implementing the conversational RAG agent with memory and chat history 
 ### [rag_gui_app.py](rag_gui_app.py)
 Interactive graphical user interface for the conversational RAG system. Provides a user-friendly chat interface with persistent conversation history, enabling researchers to interact with the RAG agent through an intuitive GUI-based application for code generation and review. The below image shows the GUI used for 
 
-![RAG GUI Application](res/rag_gui.png)
+<img src="res/rag_gui.png" alt="RAG GUI Application" width="50%">
 
 
 
 ## Examples
 
-### **rag_to_sidpy** 
-Here we show RAG applied to microscopy analysis software [sidpy](https://github.com/pycroscopy/sidpy). These were implemented by [Zijie Wu](https://github.com/zijiewu3).
+        
+### **RAG to sidpy** 
+[rag_to_sidpy](./rag_to_sidpy/)- Here we show RAG applied to microscopy analysis software [sidpy](https://github.com/pycroscopy/sidpy). These were implemented by [Zijie Wu](https://github.com/zijiewu3).
 
 - **rag_to_sidpy/rag_sidpy.py**: RAG agent implementation adapted for sidpy library, enabling natural language queries for microscopy data analysis using sidpy's data structures and methods.
 - **rag_to_sidpy/test_rag_sidpy.py**: Testing script for the sidpy-integrated RAG agent, validating query responses and code generation for sidpy-based microscopy workflows.

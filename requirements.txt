@@ -18,3 +18,4 @@ pypdf
 langchain_chroma
 sentence_transformers
 hoffmanstmpy
+PyQt5

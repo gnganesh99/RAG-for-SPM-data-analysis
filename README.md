@@ -40,11 +40,13 @@ Interactive graphical user interface for the conversational RAG system. Provides
 ## Examples
 
         
-### **RAG to sidpy** 
-[rag_to_sidpy](./rag_to_sidpy/)- Here we show RAG applied to microscopy analysis software [sidpy](https://github.com/pycroscopy/sidpy). These were implemented by [Zijie Wu](https://github.com/zijiewu3).
+### [rag_to_sidpy](./rag_to_sidpy/)
+Here we show RAG applied to microscopy analysis software [sidpy](https://github.com/pycroscopy/sidpy). These were implemented by [Zijie Wu](https://github.com/zijiewu3).
 
-- **rag_to_sidpy/rag_sidpy.py**: RAG agent implementation adapted for sidpy library, enabling natural language queries for microscopy data analysis using sidpy's data structures and methods.
-- **rag_to_sidpy/test_rag_sidpy.py**: Testing script for the sidpy-integrated RAG agent, validating query responses and code generation for sidpy-based microscopy workflows.
+- **[test_sidpy_rag.py](./rag_to_sidpy/test_sidpy_rag.py)**: Basic RAG implementation for sidpy library, demonstrating initial integration with the microscopy analysis framework.
+- **[test_sidpy_rag_2_morehint.py](./rag_to_sidpy/test_sidpy_rag_2_morehint.py)**: Enhanced RAG script with additional context hints to improve code generation quality for sidpy-specific analysis tasks.
+- **[test_sidpy_rag_2_morehint.ipynb](./rag_to_sidpy/test_sidpy_rag_2_morehint.ipynb)**: Interactive notebook version of the enhanced RAG system with examples and testing workflows for sidpy integration.
+
 
 
 

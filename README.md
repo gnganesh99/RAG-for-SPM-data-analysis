@@ -2,6 +2,9 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) agent specifically designed for the analysis of Scanning Probe Microscopy (SPM) data, with particular focus on Scanning Tunneling Microscopy (STM) datasets. The RAG system enables intelligent querying and analysis of both 2D topographic images and 3D hyperspectral data through natural language interactions.
 
+
+This repo is under development!
+
 ## Data Types Supported
 
 The system is designed to work with two main types of STM data located in the `stm_data_code_sample` folder:

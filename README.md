@@ -3,7 +3,8 @@
 This project implements a Retrieval-Augmented Generation (RAG) agent specifically designed for the analysis of Scanning Probe Microscopy (SPM) data, with particular focus on Scanning Tunneling Microscopy (STM) datasets. The RAG system enables intelligent querying and analysis of both 2D topographic images and 3D hyperspectral data through natural language interactions.
 
 
-This repo is under development!
+![RAG System Schematic](res/rag_mic_schematic.png)
+
 
 ## Data Types Supported
 
@@ -22,11 +23,6 @@ Main implementation notebook containing the RAG agent setup, vector database cre
 Python script for testing the RAG agent functionality. Provides a command-line interface to interact with the RAG system and validate its performance on STM data analysis queries. Use "python main_rag_test.py" to execure the file on terminal.
 
 
-### [examples_test_rag_output.ipynb](examples_test_rag_output.ipynb)
-Examples of Testing and validation notebook that demonstrates the RAG agent's capabilities through example queries and analysis scenarios. The prediction of gpt-5 model performs better than earlier legacy models. Notebook shows practical applications of the system for both 2D and 3D STM data interpretation and code generation.
-
-
-
 ## Conversational RAG
 
 This implementation extends the basic RAG system with conversational capabilities, maintaining chat history to provide context-aware responses. The agent can reference previous queries and answers, enabling multi-turn dialogues for iterative data analysis and refinement of SPM analysis workflows.
@@ -35,4 +31,22 @@ This implementation extends the basic RAG system with conversational capabilitie
 Notebook implementing the conversational RAG agent with memory and chat history management. Demonstrates how the system maintains context across multiple queries, allowing for follow-up questions and iterative refinement of STM data analysis tasks. The notebooks shows examples of generated code being executed on-the-fly and the feeback being incorporated into the conversation.
 
 ### [rag_gui_app.py](rag_gui_app.py)
-Interactive graphical user interface for the conversational RAG system. Provides a user-friendly chat interface with persistent conversation history, enabling researchers to interact with the RAG agent through an intuitive GUI-based application for code generation and review.
+Interactive graphical user interface for the conversational RAG system. Provides a user-friendly chat interface with persistent conversation history, enabling researchers to interact with the RAG agent through an intuitive GUI-based application for code generation and review. The below image shows the GUI used for 
+
+![RAG GUI Application](res/rag_gui.png)
+
+
+
+## Examples
+
+### **rag_to_sidpy** 
+Here we show RAG applied to microscopy analysis software [sidpy](https://github.com/pycroscopy/sidpy). These were implemented by [Zijie Wu](https://github.com/zijiewu3).
+
+- **rag_to_sidpy/rag_sidpy.py**: RAG agent implementation adapted for sidpy library, enabling natural language queries for microscopy data analysis using sidpy's data structures and methods.
+- **rag_to_sidpy/test_rag_sidpy.py**: Testing script for the sidpy-integrated RAG agent, validating query responses and code generation for sidpy-based microscopy workflows.
+
+
+
+
+### [examples_test_rag_output.ipynb](examples/examples_test_rag_output.ipynb)
+Examples of Testing and validation notebook that demonstrates the RAG agent's capabilities through example queries and analysis scenarios. The prediction of gpt-5 model performs better than earlier legacy models. Notebook shows practical applications of the system for both 2D and 3D STM data interpretation and code generation.

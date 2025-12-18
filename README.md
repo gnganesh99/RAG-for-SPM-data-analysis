@@ -35,4 +35,4 @@ This implementation extends the basic RAG system with conversational capabilitie
 Notebook implementing the conversational RAG agent with memory and chat history management. Demonstrates how the system maintains context across multiple queries, allowing for follow-up questions and iterative refinement of STM data analysis tasks. The notebooks shows examples of generated code being executed on-the-fly and the feeback being incorporated into the conversation.
 
 ### [rag_gui_app.py](rag_gui_app.py)
-Interactive graphical user interface for the conversational RAG system. Provides a user-friendly chat interface with persistent conversation history, enabling researchers to interact with the RAG agent through an intuitive web-based application for SPM data analysis queries.
+Interactive graphical user interface for the conversational RAG system. Provides a user-friendly chat interface with persistent conversation history, enabling researchers to interact with the RAG agent through an intuitive GUI-based application for code generation and review.
